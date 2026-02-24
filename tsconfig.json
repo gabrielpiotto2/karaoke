@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@public/*": [
+        "./public/*"
+      ],
+      "@src/*": [
+        "src/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+    },
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

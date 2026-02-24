@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Garante que ainda seja possível rolar */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE e Edge antigo */
+}
